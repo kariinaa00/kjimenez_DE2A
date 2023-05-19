@@ -25,7 +25,9 @@ body{
   font-size: 70px;
   color: azure;
 }
-
+a{
+  text-decoration:none;
+}
 .actividades{
     margin-top: 20px;
     display: flex;
@@ -41,7 +43,6 @@ body{
   height: 75px;
   width: 150px;
   color: White;
-  text-decoration:none;
   background: rgba(0, 0, 0, 0.242);
   font-family: math, bold;
   font-size: 30px;
@@ -50,7 +51,6 @@ body{
   align-items: center;
   justify-content: space-around;
 }
-
 #act1:hover{
   height: 75px;
   width: 150px;
