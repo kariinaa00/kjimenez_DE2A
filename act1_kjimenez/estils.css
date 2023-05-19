@@ -1,0 +1,225 @@
+body{
+    background-color: rgb(77, 19, 131);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 6, 94);
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+}
+.cabello{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top:-270px;
+    width: 520px;
+	height: 670px;
+	border-radius: 50%;
+    background-color: #461110;
+    position: absolute;
+}
+#dere{
+    display: flex;
+    width: 140px;
+    height: 280px;
+    border-radius: 50%;
+    margin-top: -365px;
+    background-color: #461110;
+    z-index: 2;
+    transform: rotate(50deg);
+}
+#izqui{
+    width: 110px;
+    height: 260px;
+    border-radius: 50%;
+    margin-top: -350px;
+    background-color: #461110;
+    z-index: 2;
+    transform: rotate(-55deg);
+}
+.orejas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 460px;
+    height: auto;
+    margin-top: -300px;
+    justify-content: space-between;
+    z-index: 0;
+    position: absolute;
+}
+#ode{
+    width: 60px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #c9967f;
+}
+#oiz{
+    width: 60px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #c9967f;
+}
+.cara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+    width: 400px;
+	height: 450px;
+	border-radius: 50%;
+    background-color: #c0886f;
+    position: absolute;
+    z-index: 1;
+}
+.cejas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+    width: 370px;
+}
+
+#cejaiz{
+    width: 115px;
+    height: 100px;
+    background-color: #461110;
+    clip-path: polygon(66% 28%, 99% 61%, 67% 48%, 3% 46%, 8% 28%);
+    transform: scaleX(-1);
+}
+#cejader{
+    width: 115px;
+    height: 100px;
+    background-color: #461110;
+    clip-path: polygon(66% 28%, 99% 61%, 67% 48%, 3% 46%, 8% 28%);
+}
+.ojos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 180px;
+    width: 340px;
+    height: 80px;
+    position: absolute;
+}
+#ojo{
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    margin-top: 150px;
+    border-radius: 50%;    
+    background-color: white;
+}
+#ojomarron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;   
+    border-radius: 50%;
+    background-color: #4B2D12;
+}
+#pupila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    background-color: #000000;
+}
+.nariz{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 250px;
+    background-color: #a06347;
+    display: block;
+    position: absolute;
+}
+.labio{
+    height: 50px; 
+    width: 100px; 
+    border-radius: 50% / 0 0 100% 100%; 
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(174, 30, 30);
+    position: absolute;
+}
+#lengua{
+    height: 37.7px; 
+    width: 71px; 
+    border-radius: 50% / 50% 50% 50% 50%; 
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(140, 2, 48);
+}
+.gafas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -305px;
+    width: 380px;
+    z-index: 2;
+}
+#gdere{
+    font-size: 240px;
+    display: block;
+    background: transparent;
+    width: 108px;
+    height: 94px;
+    border: 6px solid #63639c;
+    position: relative;
+    border-radius: 45px;
+}
+#gmedio {
+    width: 50px;
+    height: 11.2px;
+    background-color: #63639c;
+    position: relative;
+    display: block;
+}
+#gizqui{
+    font-size: 240px;
+    display: block;
+    background: transparent;
+    width: 108px;
+    height: 94px;
+    border: 6px solid #63639c;
+    position: relative;
+    border-radius: 45px;
+}
+.cuello{
+    display: flex;
+    position: absolute;
+    margin-top: 245px;
+    background-color: #a06347;
+    height: 170px;
+    width: 150px;
+}
+.camiseta{
+    display: flex;
+    position: absolute;
+    background-color: #000000;
+    margin-top: 615px;
+    height: 385px;
+    width: 490px;
+    border-radius: 90% / 100% 100% 0 0;
+    clip-path: polygon(50% 14%, 70% 0, 100% 0, 100% 95%, 100% 100%, 0 100%, 0 95%, 0 0, 31% 0);
+}
